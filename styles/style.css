@@ -96,3 +96,54 @@ nav #nav_container #nav_menu li a {
   line-height: 24px;
   margin-bottom: 32px;
 }
+
+/* notes ans structure styles  */
+#notes_structure {
+  padding-top: 50px;
+}
+
+#notes_structure #notes_structure_container #contents {
+  text-align: center;
+  margin-bottom: 44px;
+}
+#notes_structure_container #contents h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#notes_structure_container #contents p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #627382;
+  line-height: 20px;
+}
+#notes_structure_container #note_cards {
+  text-align: center;
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+#note_cards .note_card {
+  max-width: 274px;
+  background-color: #ffffff;
+  padding: 24px;
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+#note_cards .note_card img {
+  max-width: 60px;
+  margin-bottom: 16px;
+}
+#note_cards .note_card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+/* brain structure styles */
+#brain_structure {
+  margin-top: 120px;
+}
