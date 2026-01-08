@@ -34,7 +34,8 @@
 }
 
 #brain_structure,
-#early_access {
+#early_access,
+footer {
   margin-top: 120px;
 }
 
@@ -127,7 +128,7 @@ nav #nav_container #nav_menu li a {
   text-align: center;
   margin-top: 44px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 24px;
 }
 #note_cards .note_card {
@@ -153,8 +154,8 @@ nav #nav_container #nav_menu li a {
 #brain_structure #brain_structure_container {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 60px;
+  justify-content: start;
+  gap: 100px;
 }
 #brain_structure_contents .sub_title {
   font-size: 16px;
@@ -219,4 +220,42 @@ nav #nav_container #nav_menu li a {
   position: relative;
   top: -5px;
   font-size: 7px;
+}
+
+/* footer styles */
+#footer_container {
+  background-color: #001931;
+}
+footer #copyright_message {
+  text-align: center;
+  padding: 30px 0;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+#footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 120px;
+}
+#footer_content .footer_logo img {
+  max-width: 139px;
+}
+#footer_content .social_icons p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.social_icons {
+  margin-right: 120px;
+}
+.social_icons .social_media i {
+  color: white;
+  margin-right: 10px;
 }
