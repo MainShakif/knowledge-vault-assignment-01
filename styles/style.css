@@ -22,13 +22,22 @@
   border: none;
   cursor: pointer;
 }
+#btn_transparent {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
 
 /* nav styles */
 nav {
-  background-color: rgba(255, 255, 255, 0.7);
+  padding: 16px 0;
 }
 nav #nav_container {
-  padding: 16px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,4 +60,39 @@ nav #nav_container #nav_menu li a {
   font-weight: 500;
   color: #000000;
   line-height: 125%;
+}
+
+/* hero section styles */
+#hero_container {
+  background: url("../assets/hero-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero_content {
+  text-align: center;
+  padding: 115px 120px 179px 120px;
+}
+#hero_container #hero_content #early_access_btn {
+  color: #469165;
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 50px;
+  margin-bottom: 24px;
+}
+#hero_container #hero_content h1 {
+  font-size: 72px;
+  color: #ffffff;
+  text-transform: capitalize;
+  line-height: 84px;
+  margin-bottom: 16px;
+}
+#hero_container #hero_content h1 #text-green {
+  color: #30b868;
+}
+#hero_container #hero_content p {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 24px;
+  margin-bottom: 32px;
 }
