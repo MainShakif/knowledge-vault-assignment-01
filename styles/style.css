@@ -169,7 +169,7 @@ nav #nav_container .nav_btn {
   justify-content: space-between;
 }
 #notes_structure_container #note_cards .note_card {
-  max-width: 370px;
+  max-width: 350px;
   height: 260px;
   background-color: #ffffff;
   padding: 70px 18px 50px;
