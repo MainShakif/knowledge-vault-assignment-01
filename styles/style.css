@@ -33,6 +33,11 @@
   cursor: pointer;
 }
 
+#brain_structure,
+#early_access {
+  margin-top: 120px;
+}
+
 /* nav styles */
 nav {
   padding: 16px 0;
@@ -144,9 +149,6 @@ nav #nav_container #nav_menu li a {
 }
 
 /* brain structure styles */
-#brain_structure {
-  margin-top: 120px;
-}
 
 #brain_structure #brain_structure_container {
   display: flex;
@@ -185,4 +187,36 @@ nav #nav_container #nav_menu li a {
 #list_menu li img {
   position: relative;
   top: 5px;
+}
+
+/* early access styles */
+#early_access_container {
+  text-align: center;
+  background-color: #f7f6f2;
+  padding: 80px 40px;
+}
+#early_access_container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+#early_access_container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+#early_access_container div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+#early_access_container div p i {
+  position: relative;
+  top: -5px;
+  font-size: 7px;
 }
