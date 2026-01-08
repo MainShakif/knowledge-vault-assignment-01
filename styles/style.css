@@ -17,20 +17,18 @@
   font-size: 16px;
   font-weight: 600;
   background-color: #469165;
-  padding: 12px 16px;
+  padding: 18px 40px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
 }
-#btn_transparent {
-  font-size: 16px;
-  font-weight: 600;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  padding: 12px 16px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
+.btn_primary:hover {
+  color: #469165;
+  background-color: #f7f6f2;
+  transition: 0.03s;
+}
+#btn_primary_border:hover {
+  border: 1px solid #469165;
 }
 
 #brain_structure,
@@ -67,16 +65,20 @@ nav #nav_container #nav_menu li a {
   color: #000000;
   line-height: 125%;
 }
+nav #nav_container .nav_btn {
+  padding: 12.5px 16px;
+}
 
 /* hero section styles */
 #hero_container {
   background: url("../assets/hero-bg.png");
+  /* background-image: linear-gradient(to top, rgba(0, 25, 49, 0.1)); */
   background-size: cover;
   background-repeat: no-repeat;
 }
 #hero_content {
   text-align: center;
-  padding: 115px 120px 179px 120px;
+  padding: 190px 110px;
 }
 #hero_container #hero_content #early_access_btn {
   color: #469165;
@@ -84,6 +86,20 @@ nav #nav_container #nav_menu li a {
   padding: 8px 12px;
   border-radius: 50px;
   margin-bottom: 24px;
+  cursor: pointer;
+}
+#hero_container #hero_content #early_access_btn i {
+  font-size: 10px;
+  position: relative;
+  top: -2px;
+}
+#hero_container #hero_content #early_access_btn:hover {
+  background-color: #30b868;
+  color: #ffffff;
+  transition: 0.2s;
+}
+#hero_container #hero_content #early_access_btn:hover i {
+  font-size: 12px;
 }
 #hero_container #hero_content h1 {
   font-size: 72px;
@@ -103,6 +119,27 @@ nav #nav_container #nav_menu li a {
   margin-bottom: 32px;
 }
 
+#hero_content #btn_transparent {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  padding: 17px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#hero_content #btn_transparent:hover {
+  background-color: rgba(103, 210, 210, 0.834);
+  color: green;
+  border: none;
+  transform: 0.03s;
+}
+#hero_content #btn_transparent i {
+  position: relative;
+  right: 10px;
+  background-color: transparent;
+}
 /* notes ans structure styles  */
 #notes_structure {
   padding-top: 50px;
@@ -128,8 +165,8 @@ nav #nav_container #nav_menu li a {
   text-align: center;
   margin-top: 44px;
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
+  /* gap: 24px; */
 }
 #note_cards .note_card {
   max-width: 274px;
@@ -225,6 +262,10 @@ nav #nav_container #nav_menu li a {
 /* footer styles */
 #footer_container {
   background-color: #001931;
+}
+#footer_container hr {
+  color: #e5e7eb;
+  opacity: 20%;
 }
 footer #copyright_message {
   text-align: center;
