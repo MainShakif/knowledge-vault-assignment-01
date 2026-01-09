@@ -248,6 +248,7 @@ nav #nav_container .nav_btn {
   text-align: center;
   background-color: #f7f6f2;
   padding: 80px 40px;
+  border-radius: 12px;
 }
 #early_access_container h2 {
   font-size: 40px;
