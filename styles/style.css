@@ -36,6 +36,12 @@
 footer {
   margin-top: 120px;
 }
+nav {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0 !important;
+  z-index: 99;
+}
 
 /* nav styles */
 nav {
@@ -45,8 +51,8 @@ nav #nav_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 5px;
+  /* position: sticky;
+  top: 0; */
 }
 nav #nav_container #logo img {
   max-width: 139px;
@@ -63,6 +69,8 @@ nav #nav_container #nav_menu li a {
   font-size: 16px;
   font-weight: 500;
   color: #000000;
+  border-bottom: 4px solid #30b868;
+  padding-bottom: 6px;
   line-height: 125%;
 }
 nav #nav_container .nav_btn {
