@@ -41,7 +41,8 @@ nav {
   background-color: #f7f6f2;
   padding: 16px 0;
   position: sticky;
-  top: 0 !important;
+  top: 0;
+  z-index: 99;
 }
 nav #nav_container {
   display: flex;
